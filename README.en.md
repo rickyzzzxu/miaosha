@@ -2,36 +2,12 @@
 
 #### Description
 使用java做的高并发电商秒杀项目
-技术栈：springboot，mybatis，redis，rockermq等
+技术栈：springboot，mybatis，redis，rocketmq等
 
 #### Software Architecture
-Software architecture description
-
-#### Installation
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### Instructions
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### Contribution
-
-1.  Fork the repository
-2.  Create Feat_xxx branch
-3.  Commit your code
-4.  Create Pull Request
+springboot+mybatis做常规的电商功能，如登录，注册等\
+redis用作缓存，缓存热点信息，如用户登录的token信息，商品的详情，库存信息等\
+rocketmq异步更新数据库，保证数据与缓存的一致性\
+数据库使用mysql
 
 
-#### Gitee Feature
-
-1.  You can use Readme\_XXX.md to support different languages, such as Readme\_en.md, Readme\_zh.md
-2.  Gitee blog [blog.gitee.com](https://blog.gitee.com)
-3.  Explore open source project [https://gitee.com/explore](https://gitee.com/explore)
-4.  The most valuable open source project [GVP](https://gitee.com/gvp)
-5.  The manual of Gitee [https://gitee.com/help](https://gitee.com/help)
-6.  The most popular members  [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
