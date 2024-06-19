@@ -7,6 +7,6 @@ public class demo {
         System.out.println("hello world-master3");
         System.out.println("hello world-master4");
         System.out.println("hello world");
-        System.out.println("hello world");
+        System.out.println("hello worlddemo1");
     }
 }
